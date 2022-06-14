@@ -15,7 +15,13 @@ func TestMapForFactory(t *testing.T) {
 func TestMapForSet(t *testing.T) {
 	mySet := map[int]bool{}
 	mySet[1] = true
-	n := 3
+	n := 1
+	if mySet[n] {
+		t.Log("key is existed")
+	} else {
+		t.Log("key is not existed")
+	}
+	delete(mySet, 1)
 	if mySet[n] {
 		t.Log("key is existed")
 	} else {
