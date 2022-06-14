@@ -3,7 +3,7 @@ package array
 import "testing"
 
 //数组 及其遍历
-func TestXXX(t *testing.T) {
+func TestArray(t *testing.T) {
 	var a [3][3]int
 	a[0][0] = 5
 	b := [4]int{1, 2, 3, 4}
