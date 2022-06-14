@@ -2,7 +2,7 @@ package array
 
 import "testing"
 
-//数组 及其遍历
+//数组初始化及其遍历
 func TestArray(t *testing.T) {
 	var a [3][3]int
 	a[0][0] = 5
